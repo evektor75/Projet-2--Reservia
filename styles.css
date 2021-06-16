@@ -8,10 +8,13 @@
 	
 }
 
-body h1
+
+h1, h3
 {
 	font-weight:bold;
 }
+
+
 
 
 
@@ -76,6 +79,7 @@ header nav ul li:hover
 	font-size: 1em;
 	color: #303030;
 	margin-bottom: 18px;
+
 	
 }
 
@@ -95,6 +99,15 @@ header nav ul li:hover
 
 }
 
+.mapPoint p
+{
+	text-align: center;
+}
+
+.mapPoint i
+{
+	font-size: 1.2em;
+}
 
 .barre input 
  {
@@ -112,13 +125,56 @@ header nav ul li:hover
 	background-color: #0065FC;
 	color: white;
 	font-weight: bold;
-	font-size: 0.9em;
+	font-size: 1em;
+	border:  2px solid #0065FC;
 
 }
 
-#recherche 
+
+					/*Filtre de recherche*/ 
+
+#filtres
+{
+	display: flex;
+	margin-top: 30px;
+	align-items: center;
+	height: 50px;
+}
+
+.bulles
+{
+	display: flex;
+	margin-left: 30px;
+	border: 2px solid #F2F2F2;
+	border-radius: 35px;
+	max-height: 50px;
+}
+
+.nomFiltre
 {
 	font-weight: bold;
-	font-size: 0.9em;
+	margin-left: 15px;
+	padding-right: 25px;
 
 }
+
+.bulles p 
+{
+	margin-left: 5px;
+	color: #0065FC;
+	background-color: #DEEBFF;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 100%;
+	vertical-align: middle;
+	padding: 15px;
+	position: relative;
+	top: -26px;
+	left: -7px;
+	font-size: 1.5em;
+
+}
+
+
