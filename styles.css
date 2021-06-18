@@ -6,6 +6,8 @@
 #blocpage
 {
 	width: 1340px;
+	margin-left: 52px;
+	margin-right: 52px;
 }
 
 body
@@ -20,7 +22,11 @@ h1, h3
 	font-weight:bold;
 }
 
-
+a 
+{
+	text-decoration: none;
+	color: black;
+}
 
 
 
@@ -31,13 +37,19 @@ h1, h3
 
 header nav ul
 {
-	position: absolute;
-	right: 0;
-	top: 0;
 	list-style: none;
-	display: flex;	
+	display: flex;
 }
-
+#header
+{
+	display: flex;
+	width: 1340px;
+	margin-right: 45px;
+}
+#logo
+{
+	margin-right:750px ;
+}
 header img
 {
 	
@@ -84,6 +96,8 @@ header nav ul li:hover
 {
 	font-size: 1.4em;
 	margin-top: 50px;
+	position: relative;
+	left: -40px;
 
 	
 }
@@ -201,15 +215,34 @@ header nav ul li:hover
 {
 	display: flex;
 	margin-top: 15px;
-	font-size: 1.2em;
+	
+	margin-bottom: 20px;
 }
 
 #infobulle p:last-child
 {
 	margin-left: 15px;
-
+	font-size: 1.2em;
 }
 
+#infobulle i
+{
+	color: #0065FC;
+	font-size: 1em;
+	position: relative;
+	right: -10px;
+	bottom: -2px;
+}
+#contour
+{
+	width: 25px;
+	height: 25px;
+	border: 2px solid #F2F2F2 ;
+	border-radius: 50%;
+	position: relative;
+	bottom: -16px;
+	right: -2px;
+}
 
 /* Mettre la bulle info en bleu*/
 
@@ -241,7 +274,7 @@ h1
 
 #bloc1 h1
 {
-	margin-top: 20px;
+	margin-top: 40px;
 }
 
 #hebergement1
@@ -499,11 +532,15 @@ h1
 {
 	margin-left: 40px;
 	margin-right: 115px;
+	margin-top: 40px;
 }
 #icon_tendances i  
 {
 	font-size: 1.4em;
-	margin-top: 22px;
+	margin-top: 25px;
+	position: relative;
+	left: -20px;
+
 }
 
 
@@ -603,6 +640,179 @@ h1
 
 
 /*SECTION ACTIVITES*/
+
+#activites
+{
+	display:  flex;
+
+}
+#activities h1
+{
+	position: relative;
+	left: -40px;
+	margin-top: 65px;
+}
+#activites h3
+{
+	margin-left: 15px;
+}
+#activite1
+{
+	width: 300px;
+	height: 445px;
+	border: 1px solid #F2F2F2;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px #F2F2F2 ;
+}
+
+#activite1 img 
+{
+	height: 390px;
+	width: 300px;
+	object-fit: cover;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+
+#activite2et3
+{
+	margin-left: 40px;
+	display: flex;
+	flex-direction: column;
+} 
+
+#activite2
+{
+	width: 300px;
+	height: 235px;
+	border: 1px solid #F2F2F2;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px #F2F2F2 ;
+	margin-bottom: 40px;
+}
+
+
+#activite2 img
+{
+	width: 300px;
+	height: 180px;
+	object-fit: cover;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#activite3
+{
+	width: 300px;
+	height: 170px;
+	border: 1px solid #F2F2F2;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px #F2F2F2 ;
+}
+
+#activite3 img
+{
+	width: 300px;
+	height: 105px;
+	object-fit: cover;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#activite4
+{
+	width: 300px;
+	height: 445px;
+	margin-left: 40px;
+	border: 1px solid #F2F2F2;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px #F2F2F2 ;
+}
+
+#activite4 img
+{
+	height: 390px;
+	width: 300px;
+	object-fit: cover;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#activite5et6
+{
+	margin-left: 40px;
+	display: flex;
+	flex-direction: column;
+}
+
+#activite5 
+{
+	height: 195px;
+	width: 300px;
+	border: 1px solid #F2F2F2;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px #F2F2F2;
+	margin-bottom: 40px;
+}
+
+#activite5 img
+{
+	width: 300px;
+	height:140px ;
+	object-fit: cover;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+}
+
+#activite6 
+{
+	width: 300px;
+	height:210px ;
+	border: 1px solid #F2F2F2;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px #F2F2F2;
+}
+
+#activite6 img
+{
+	width: 300px;
+	height: 155px;
+	object-fit: cover;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+/*FOOTER*/ 
+
+
+#bloc_footer
+{
+	width: 1444px;
+	height: 220px;
+	background-color: #F2F2F2;
+	display: flex;
+	margin-top: 60px;
+}
+
+.aide
+{
+	margin-left: 50px;
+	margin-right: 220px;
+}
+
+.aide ul 
+{
+	list-style-type: none;
+	
+}
+.aide h3 
+{
+	margin-left: 40px;
+}
+
+
 
 
 
