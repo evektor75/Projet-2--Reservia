@@ -6,8 +6,8 @@
 #blocpage
 {
 	width: 1340px;
-	margin-left: 52px;
-	margin-right: 52px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 body
@@ -158,6 +158,11 @@ header nav ul li:hover
 
 }
 
+.bouton i
+{
+	opacity: 0;
+}
+
 
 					/*Filtre de recherche*/ 
 
@@ -168,8 +173,11 @@ header nav ul li:hover
 	align-items: center;
 	height: 50px;
 }
-
-.bulles
+#partie_filtre
+{
+	display: flex;
+}
+.bulles1
 {
 	display: flex;
 	margin-left: 30px;
@@ -178,7 +186,7 @@ header nav ul li:hover
 	max-height: 50px;
 }
 
-.nomFiltre
+.nomFiltre1
 {
 	font-weight: bold;
 	margin-left: 15px;
@@ -186,7 +194,7 @@ header nav ul li:hover
 
 }
 
-.bulles p 
+.bulles1 p 
 {
 	margin-left: 5px;
 	color: #0065FC;
@@ -205,12 +213,137 @@ header nav ul li:hover
 }
 
 
-.bulles:hover
+.bulles1:hover
 {
 	-webkit-transform: scale(1.2);
 	transform: scale(1.2);
 }
 
+.bulles2
+{
+	display: flex;
+	margin-left: 30px;
+	border: 2px solid #F2F2F2;
+	border-radius: 35px;
+	max-height: 50px;
+}
+
+.nomFiltre2
+{
+	font-weight: bold;
+	margin-left: 15px;
+	padding-right: 25px;
+
+}
+
+.bulles2 p 
+{
+	margin-left: 5px;
+	color: #0065FC;
+	background-color: #DEEBFF;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 100%;
+	vertical-align: middle;
+	padding: 15px;
+	position: relative;
+	top: -26px;
+	left: -7px;
+	font-size: 1.5em;
+}
+
+
+.bulles2:hover
+{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.bulles3
+{
+	display: flex;
+	margin-left: 30px;
+	border: 2px solid #F2F2F2;
+	border-radius: 35px;
+	max-height: 50px;
+}
+
+.nomFiltre3
+{
+	font-weight: bold;
+	margin-left: 15px;
+	padding-right: 25px;
+
+}
+
+.bulles3 p 
+{
+	margin-left: 5px;
+	color: #0065FC;
+	background-color: #DEEBFF;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 100%;
+	vertical-align: middle;
+	padding: 15px;
+	position: relative;
+	top: -26px;
+	left: -7px;
+	font-size: 1.5em;
+}
+
+
+.bulles3:hover
+{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.bulles4
+{
+	display: flex;
+	margin-left: 30px;
+	border: 2px solid #F2F2F2;
+	border-radius: 35px;
+	max-height: 50px;
+}
+
+.nomFiltre4
+{
+	font-weight: bold;
+	margin-left: 15px;
+	padding-right: 25px;
+
+}
+
+.bulles4 p 
+{
+	margin-left: 5px;
+	color: #0065FC;
+	background-color: #DEEBFF;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 100%;
+	vertical-align: middle;
+	padding: 15px;
+	position: relative;
+	top: -26px;
+	left: -7px;
+	font-size: 1.5em;
+}
+
+
+.bulles4:hover
+{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
 #infobulle
 {
 	display: flex;
@@ -244,7 +377,10 @@ header nav ul li:hover
 	right: -2px;
 }
 
-/* Mettre la bulle info en bleu*/
+#responsive_filtre
+{
+	display: flex;
+}
 
 
 /*SECTION ACCOMODATIONS*/
@@ -795,6 +931,8 @@ h1
 	background-color: #F2F2F2;
 	display: flex;
 	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .aide
