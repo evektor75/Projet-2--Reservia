@@ -1,10 +1,11 @@
-@media screen and (max-width: 480px)	
+@media all and (max-device-width: 480px)
+
 {
 
 #blocpage
 
 {	
-	width: 100%;
+	width: auto;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -82,7 +83,10 @@ header nav ul li:hover
 }
 #search h2 
 {
-	margin-left: 10px;
+	margin-left: 0px;
+	text-align: center;
+	position: relative;
+	left: -10px;
 }
 
 
@@ -221,6 +225,11 @@ header nav ul li:hover
 }
 
 
+.break
+{
+	word-break: break;
+}
+
 /*Hebergements*/ 
 
 
@@ -258,29 +267,259 @@ header nav ul li:hover
 #hebergement7
 {
 	margin-left: 20px;
-	width: 335px;
+	width: 89%;
 }
 
 #hebergement8
 {
 	margin-left: 20px;
-	width: 335px;
+	width: 89%;
 }
 
 #hebergement9
 {
 	margin-left: 20px;
-	width: 335px;
+	width: 89%;
 }
-
-
-
-
-
-
 
 #bloc1
 {
 	width: 100%;
 	border-radius: 0;
+	background: white;
+}
+#bloc1 h1 
+{
+	margin-left: 20px;
+}
+
+#hebergementsHaut
+{
+	flex-direction: column;
+}
+
+#hebergementsBas
+{
+	flex-direction: column;
+}
+
+
+#hebergement1
+{
+	margin-bottom: 10px;
+	border:  2px solid #F2F2F2;
+	width: 89%;
+	margin-left: 20px;
+}
+
+#hebergement1 img 
+{
+	width: 325px;
+}
+
+#hebergement2
+{
+	margin-bottom: 10px;
+	border:  2px solid #F2F2F2;
+	width: 89%;
+	margin-left: 20px;
+}
+#hebergement2 img 
+{
+	width: 325px;
+}
+
+#hebergement3
+{
+	margin-bottom: 10px;
+	border:  2px solid #F2F2F2;
+	width: 89%;
+	margin-left: 20px;
+}
+
+
+
+#hebergement3 img 
+{
+	width: 325px;
+}
+
+#hebergement4
+{
+	margin-bottom: 10px;
+	border:  2px solid #F2F2F2;
+	width: 89%;
+	margin-left: 20px;
+	margin-top: 0;
+}
+#hebergement4 img 
+{
+	width: 325px;
+}
+
+#hebergement5
+{
+	margin-bottom: 10px;
+	border:  2px solid #F2F2F2;
+	width: 89%;
+	margin-left: 20px;
+	margin-top: 0;
+}
+#hebergement5 img 
+{
+	width: 325px;
+
+}
+
+#hebergement6
+{
+	border:  2px solid #F2F2F2;
+	width: 89%;
+	margin-left: 20px;
+	margin-top: 0;
+}
+#hebergement6 img 
+{
+	width: 325px;
+
+}
+
+#plus p 
+{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+/*ACTIVITES*/
+
+#activities
+{
+	position: relative;
+	bottom: -930px;
+}
+ #activities h1 
+{
+	margin-left: 60px;
+}
+
+#activites 
+{
+	flex-direction: column;
+}
+
+#activite1
+{
+	width: 335px;
+	height: 190px;
+	margin-bottom: 25px;
+	margin-left: 20px;
+
+}
+
+#activite1 img 
+{
+	height: 135px;
+	width: 100%;
+}
+#activite2et3
+{
+	margin-left: 20px;
+}
+
+#activite2
+{
+	width:335px;
+	height: 190px;
+	margin-bottom: 25px;
+}
+
+#activite2 img 
+{
+	height: 135px;
+	width: 100%;
+}
+
+#activite3
+{
+	width: 335px;
+	height: 190px;
+	margin-bottom: 25px;
+}
+
+#activite3 img 
+{
+	height: 135px;
+	width: 100%;
+}
+
+#activite4
+{
+	width: 335px;
+	height: 190px;
+	margin-left: 20px;
+	margin-bottom: 25px;
+}
+
+#activite4 img 
+{
+	height: 135px;
+	width: 100%;
+}
+
+#activite5et6
+{
+	margin-left: 20px;
+}
+
+#activite5
+{
+	width: 335px;
+	height: 190px;
+	margin-bottom: 25px;
+}
+
+#activite5 img
+{
+	height: 135px;
+	width: 100%;
+}
+
+#activite6
+{
+	width: 335px;
+	height: 190px;
+}
+#activite6 img
+{
+	height: 135px;
+	width: 100%;
+}
+
+/*FOOTER*/
+
+#bloc_footer
+{
+	position: relative;
+	bottom: -930px;
+	flex-direction: column;
+	width:100% ;
+	height: 485px ;
+	font-size: 0.8em;
+}
+.aide
+{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.aide h3
+{
+	margin-left: 20px;
+	white-space: nowrap;
+}
+.aide ul 
+{
+	position: relative;
+	left: -20px;
+	white-space: nowrap;
 }
