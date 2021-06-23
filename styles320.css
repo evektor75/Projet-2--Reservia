@@ -1,0 +1,250 @@
+@media all  and (min-width: 320px) and (max-width:320px)
+{
+#filtres h3 
+{
+	margin-left: 10px;
+}
+
+#responsive_filtre
+{
+	flex-direction: column;
+}
+.bulles2
+{
+	margin-top: 15px;
+	margin-left: 30px;
+}
+
+#infobulle
+{
+	position: relative;
+	bottom: -250px;
+}
+
+
+
+/*TENDANCES*/
+
+#bloc
+{
+	position: relative;
+	bottom: -220px;
+}
+
+#icon_tendances i  
+{
+	position: relative;
+	bottom: -20px;
+
+}
+#hebergement7
+{
+	margin-left: 10px;
+	width: 89%;
+}
+#hebergement7 p 
+{
+	position: relative;
+	top: -5px;
+}
+#hebergement7:hover
+{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+#hebergement8
+{
+	margin-left: 10px;
+	width: 89%;
+}
+#hebergement8 p 
+{
+	position: relative;
+	top: -5px;
+}
+
+#hebergement8:hover
+{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+#hebergement9
+{
+	margin-left: 10px;
+	width: 89%;
+}
+
+#hebergement9 p 
+{
+	position: relative;
+	top: -5px;
+}
+#hebergement9:hover
+{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.description2
+{
+	font-size: 0.8em;
+	margin-left: 10px;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.rating2
+{
+	display: none;
+}
+
+/*Hebergement*/
+
+
+#hebergement1
+{
+	width: 89%;
+	margin-left: 10px;
+}
+#hebergement1 img
+{
+	width: 97%;
+}
+#hebergement1:hover
+{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+#hebergement2
+{
+	width: 89%;
+	margin-left: 10px;
+}
+#hebergement2 img
+{
+	width: 97%;
+}
+#hebergement2:hover
+{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+#hebergement3
+{
+	width: 89%;
+	margin-left: 10px;
+}
+#hebergement3 img
+{
+	width: 97%;
+}
+#hebergement3:hover
+{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+#hebergement4
+{
+	width: 89%;
+	margin-left: 10px;
+}
+#hebergement4 img
+{
+	width: 97%;
+}
+
+#hebergement4:hover
+{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+#hebergement5
+{
+	width: 89%;
+	margin-left: 10px;
+}
+#hebergement5 img
+{
+	width: 97%;
+}
+
+#hebergement5:hover
+{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+#hebergement6
+{
+	width: 89%;
+	margin-left: 10px;
+}
+
+#hebergement6 img
+{
+	width: 97%;
+}
+#hebergement6:hover
+{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+/*ACTIVITES*/
+
+#activities
+{
+	position: relative;
+	bottom: -1000px;
+}
+#activite1
+{
+	width: 89%;
+	margin-left: 10px;
+}
+#activite2et3
+{
+	margin-left: 10px;
+	width: 100%;
+}
+#activite2
+{
+	width: 89%;
+	
+} 
+#activite3 
+{
+	width: 89%;
+	
+}
+#activite4
+{
+	width: 89%;
+	margin-left: 10px;
+}
+#activite5et6
+{
+	margin-left: 10px;
+	width: 100%;
+}
+#activite5
+{
+	width: 89%;
+	
+}
+#activite6 
+{
+	width: 89%;
+	
+}
+
+
+/*FOOTER*/
+
+#bloc_footer
+{
+	position: relative;
+	bottom: -980px;
+}
+
+}
