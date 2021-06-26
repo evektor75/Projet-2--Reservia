@@ -92,6 +92,8 @@
 	text-align: center;
 	margin-top: auto;
 	margin-bottom: auto;
+	position: relative;
+	left: -5px;
 }
 
 .rating2
