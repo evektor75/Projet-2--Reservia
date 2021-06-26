@@ -173,7 +173,7 @@ header nav ul li:hover
 .nomFiltre1
 {
 	position: relative;
-	left: -20px;
+	left: -5px;
 }
 
 .bulles2
@@ -185,7 +185,7 @@ header nav ul li:hover
 .nomFiltre2
 {
 	position: relative;
-	left: -20px;
+	left: -5px;
 }
 
 .bulles3
@@ -197,7 +197,7 @@ header nav ul li:hover
 .nomFiltre3
 {
 	position: relative;
-	left: -20px;
+	left: -5px;
 }
 
 .bulles4
@@ -211,7 +211,7 @@ header nav ul li:hover
 	margin: 0;
 	padding: 0;
 	position: relative;
-	left: -5px;
+	right: -10px;
 }
 
 
@@ -224,6 +224,17 @@ header nav ul li:hover
 	margin-top: 40px;
 }
 
+#logoinfo
+{
+
+	width: 25px;
+	height: 25px;
+}
+#contour
+{
+	width: 25px;
+	height: 25px;
+}
 
 .break
 {
