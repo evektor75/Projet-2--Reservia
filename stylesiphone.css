@@ -1,11 +1,10 @@
-@media all and (max-device-width: 480px)
+@media all and (max-width: 480px)
 
 {
 
 #blocpage
 
 {	
-	width: auto;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -325,7 +324,7 @@ header nav ul li:hover
 
 #hebergement1 img 
 {
-	width: 325px;
+	width: 98%;
 }
 
 #hebergement2
@@ -337,7 +336,7 @@ header nav ul li:hover
 }
 #hebergement2 img 
 {
-	width: 325px;
+	width: 98%;
 }
 
 #hebergement3
@@ -352,7 +351,7 @@ header nav ul li:hover
 
 #hebergement3 img 
 {
-	width: 325px;
+	width: 98%;
 }
 
 #hebergement4
@@ -365,7 +364,7 @@ header nav ul li:hover
 }
 #hebergement4 img 
 {
-	width: 325px;
+	width: 98%;
 }
 
 #hebergement5
@@ -378,7 +377,7 @@ header nav ul li:hover
 }
 #hebergement5 img 
 {
-	width: 325px;
+	width: 98%;
 
 }
 
@@ -391,7 +390,7 @@ header nav ul li:hover
 }
 #hebergement6 img 
 {
-	width: 325px;
+	width: 98%;
 
 }
 
