@@ -1,4 +1,6 @@
-@media all and (max-width: 480px)
+@media all and (min-width: 480px) and (max-width:1500px)
+
+
 
 {
 
@@ -18,7 +20,9 @@ header nav ul li
 .navheader
 {
 	margin-left: 0px;
+
 }
+
 header nav ul li:first-child
 {
 	display: flex;
@@ -30,7 +34,7 @@ header nav ul li:first-child
 	border-bottom: 3px solid #F2F2F2 ;
 	position: absolute;
 	top: 45px;
-	left: 0px;
+	left: 15px;
 }
 
 header nav ul li:nth-child(2)
@@ -44,7 +48,7 @@ header nav ul li:nth-child(2)
 	border-bottom: 3px solid #F2F2F2 ;
 	position: absolute;
 	top: 45px;
-	right: 0px;
+	right: 15px;
 
 }
 
@@ -162,6 +166,8 @@ header nav ul li:hover
 #partie_filtre
 {
 	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .bulles1
@@ -191,7 +197,8 @@ header nav ul li:hover
 {
 	width: 170px;
 	margin-top: 15px;
-
+	
+	
 }
 
 .nomFiltre3
@@ -264,18 +271,15 @@ header nav ul li:hover
 {
 	margin-left: 20px;
 	padding-right: 0px;
-	margin-right: 0;
+	margin-right: 0px;
 	width: 350px;
 	margin-bottom: 30px;
 }
+
+
 #icon_tendances i  
 {
-	visibility: visible;
-}
-#icon_tendances i  
-{
-	position: relative;
-	bottom: -18px;
+	visibility: hidden;
 }
 
 #hebergement7
@@ -323,7 +327,6 @@ header nav ul li:hover
 	margin-bottom: 10px;
 	border:  2px solid #F2F2F2;
 	width: 89%;
-	margin-left: 20px;
 }
 
 #hebergement1 img 
@@ -336,7 +339,6 @@ header nav ul li:hover
 	margin-bottom: 10px;
 	border:  2px solid #F2F2F2;
 	width: 89%;
-	margin-left: 20px;
 }
 #hebergement2 img 
 {
@@ -348,7 +350,6 @@ header nav ul li:hover
 	margin-bottom: 10px;
 	border:  2px solid #F2F2F2;
 	width: 89%;
-	margin-left: 20px;
 }
 
 
@@ -363,8 +364,7 @@ header nav ul li:hover
 	margin-bottom: 10px;
 	border:  2px solid #F2F2F2;
 	width: 89%;
-	margin-left: 20px;
-	margin-top: 0;
+		margin-top: 0;
 }
 #hebergement4 img 
 {
@@ -376,7 +376,6 @@ header nav ul li:hover
 	margin-bottom: 10px;
 	border:  2px solid #F2F2F2;
 	width: 89%;
-	margin-left: 20px;
 	margin-top: 0;
 }
 #hebergement5 img 
@@ -389,7 +388,6 @@ header nav ul li:hover
 {
 	border:  2px solid #F2F2F2;
 	width: 89%;
-	margin-left: 20px;
 	margin-top: 0;
 }
 #hebergement6 img 
@@ -397,10 +395,10 @@ header nav ul li:hover
 	width: 98%;
 
 }
+
 #plus p 
 {
 	margin-top: 20px;
-	margin-left: 20px;
 }
 
 /*ACTIVITES*/
@@ -418,6 +416,7 @@ header nav ul li:hover
 #activites 
 {
 	flex-direction: column;
+
 }
 
 #activite1
@@ -425,6 +424,7 @@ header nav ul li:hover
 	width: 89%;
 	height: 190px;
 	margin-bottom: 25px;
+	margin-top: 20px;
 	margin-left: 20px;
 
 }
@@ -437,11 +437,12 @@ header nav ul li:hover
 #activite2et3
 {
 	margin-left: 20px;
+
 }
 
 #activite2
 {
-	width:89%;
+	width: 89%;
 	height: 190px;
 	margin-bottom: 25px;
 }
@@ -482,6 +483,7 @@ header nav ul li:hover
 #activite5et6
 {
 	margin-left: 20px;
+
 }
 
 #activite5
@@ -521,20 +523,12 @@ header nav ul li:hover
 }
 .aide
 {
-	margin-left: 20px;
+
 	margin-top: 20px;
-	text-align: left;
+	text-align: center;
 }
 
-.aide h3
-{
-	margin-left: 20px;
-	white-space: nowrap;
-	text-align: left;
-}
-.aide ul 
-{
-	position: relative;
-	left: -20px;
-	white-space: nowrap;
+
+
+
 }
