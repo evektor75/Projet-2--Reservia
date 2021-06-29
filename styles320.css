@@ -1,24 +1,30 @@
 @media all and (max-width:320px)
 {
+
 #filtres h3 
 {
 	margin-left: 10px;
 }
+#partie_filtre
+{
+	margin-left: 0;
+	margin-right: 0;
+	position: relative;
+	left: -30px;
+	width: 320px;
+}
 
-#responsive_filtre
+header nav ul li:hover
 {
-	flex-direction: column;
+	color: none;
+	border-bottom: 3px solid #F2F2F2;
 }
-.bulles2
-{
-	margin-top: 15px;
-	margin-left: 30px;
-}
+
 
 #infobulle
 {
 	position: relative;
-	bottom: -250px;
+	bottom: -300px;
 }
 #navinscription
 {
