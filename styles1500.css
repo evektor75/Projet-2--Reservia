@@ -304,11 +304,13 @@ header nav ul li:hover
 	margin-bottom: 10px;
 	border:  2px solid #F2F2F2;
 	width: 89%;
+	min-width: 205px;
 }
 
 #hebergement1 img 
 {
 	width: 98%;
+
 }
 
 #hebergement2
@@ -316,6 +318,7 @@ header nav ul li:hover
 	margin-bottom: 10px;
 	border:  2px solid #F2F2F2;
 	width: 89%;
+	min-width: 205px;
 }
 #hebergement2 img 
 {
@@ -327,6 +330,7 @@ header nav ul li:hover
 	margin-bottom: 10px;
 	border:  2px solid #F2F2F2;
 	width: 89%;
+	min-width: 205px;
 }
 
 
@@ -341,7 +345,8 @@ header nav ul li:hover
 	margin-bottom: 10px;
 	border:  2px solid #F2F2F2;
 	width: 89%;
-		margin-top: 0;
+	margin-top: 0;
+	min-width: 205px;
 }
 #hebergement4 img 
 {
@@ -354,6 +359,7 @@ header nav ul li:hover
 	border:  2px solid #F2F2F2;
 	width: 89%;
 	margin-top: 0;
+	min-width: 205px;
 }
 #hebergement5 img 
 {
@@ -366,6 +372,7 @@ header nav ul li:hover
 	border:  2px solid #F2F2F2;
 	width: 89%;
 	margin-top: 0;
+	min-width: 205px;
 }
 #hebergement6 img 
 {
