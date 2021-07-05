@@ -153,27 +153,25 @@ header nav ul li:hover
 }
 
 /*Partie Filtre de recherche*/
+
 #filtres 
 {
-	flex-direction: column;
-	align-items: flex-start;
-	margin-top: 10px;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-top: 50px;
+	margin-bottom: 60px;
+	
 }
+
 #filtres h3 
 {
 	margin-left: 20px;
-}
-#partie_filtre
-{
-	flex-direction: column;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .bulles1
 {
 	width: 175px;
-
+	margin-right: 5px;
 }
 .nomFiltre1
 {
@@ -191,12 +189,14 @@ header nav ul li:hover
 {
 	position: relative;
 	left: -5px;
+	padding-right: 0;
 }
 
 .bulles3
 {
 	width: 170px;
-	margin-top: 15px;
+	margin-left: 15px;
+	
 	
 	
 }
@@ -210,7 +210,6 @@ header nav ul li:hover
 .bulles4
 {
 	width: 220px;
-	margin-top: 15px;
 }
 
 .nomFiltre4
@@ -222,14 +221,6 @@ header nav ul li:hover
 }
 
 
-
-#infobulle
-{
-	position: relative;
-	bottom: -180px;
-	margin-bottom: 40px;
-	margin-top: 40px;
-}
 
 #logoinfo
 {
@@ -255,8 +246,7 @@ header nav ul li:hover
 #bloc 
 {
 	flex-direction: column-reverse;
-	position: relative;
-	bottom: -160px;
+	
 }
 
 #tendances
@@ -394,11 +384,7 @@ header nav ul li:hover
 
 /*ACTIVITES*/
 
-#activities
-{
-	position: relative;
-	bottom: -130px;
-}
+
  #activities h1 
 {
 	margin-left: 60px;
@@ -509,8 +495,6 @@ header nav ul li:hover
 
 #bloc_footer
 {
-	position: relative;
-	bottom: -130px;
 	flex-direction: column;
 	width:100% ;
 	height: 485px ;

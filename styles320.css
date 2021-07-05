@@ -1,13 +1,10 @@
 @media all and (max-width:320px)
 {
 
-#filtres h3 
+
+#filtres
 {
 	margin-left: 10px;
-}
-#partie_filtre
-{
-	margin-left: 0;
 	margin-right: 0;
 	position: relative;
 	left: -30px;
@@ -24,8 +21,11 @@ header nav ul li:hover
 #infobulle
 {
 	position: relative;
-	bottom: -300px;
+	bottom: -200px;
+	margin-top: 10px;
+	margin-bottom: 15px;
 }
+
 #navinscription
 {
 	margin-right: 20px;
@@ -38,7 +38,7 @@ header nav ul li:hover
 #bloc
 {
 	position: relative;
-	bottom: -220px;
+	bottom: -180px;
 }
 
 #icon_tendances i  
@@ -207,7 +207,7 @@ header nav ul li:hover
 #activities
 {
 	position: relative;
-	bottom: -1000px;
+	bottom: -1100px;
 }
 #activite1
 {
@@ -256,7 +256,7 @@ header nav ul li:hover
 #bloc_footer
 {
 	position: relative;
-	bottom: -980px;
+	bottom: -1100px;
 }
 
 }
