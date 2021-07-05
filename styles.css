@@ -75,7 +75,7 @@ header img
 }
 header nav ul li
 {
-	padding-top: 50px;
+	padding-top: 40px;
 	width: 160px;
 	text-align: center;
 }
@@ -380,6 +380,7 @@ header nav ul li:hover
 }
 
 
+
 /*SECTION ACCOMODATIONS*/
 
 #bloc
@@ -390,9 +391,16 @@ header nav ul li:hover
 #hebergementsHaut
 {
 	display: flex;
+
 }
-
-
+#hebergementsHaut 
+{
+	white-space: nowrap;
+}
+#hebergementsBas
+{
+	white-space: nowrap;
+}
 #bloc1
 {
 	background-color:  #F2F2F2;
