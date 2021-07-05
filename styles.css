@@ -173,14 +173,11 @@ header nav ul li:hover
 	align-items: center;
 	height: 50px;
 }
-#partie_filtre
-{
-	display: flex;
-}
+
 .bulles1
 {
 	display: flex;
-	margin-left: 30px;
+	margin-left: 15px;
 	border: 2px solid #F2F2F2;
 	border-radius: 35px;
 	max-height: 50px;
@@ -222,7 +219,7 @@ header nav ul li:hover
 .bulles2
 {
 	display: flex;
-	margin-left: 30px;
+	margin-left: 15px;
 	border: 2px solid #F2F2F2;
 	border-radius: 35px;
 	max-height: 50px;
@@ -264,7 +261,7 @@ header nav ul li:hover
 .bulles3
 {
 	display: flex;
-	margin-left: 30px;
+	margin-left: 15px;
 	border: 2px solid #F2F2F2;
 	border-radius: 35px;
 	max-height: 50px;
@@ -306,8 +303,8 @@ header nav ul li:hover
 .bulles4
 {
 	display: flex;
-	margin-left: 30px;
 	border: 2px solid #F2F2F2;
+	margin-left: 15px;
 	border-radius: 35px;
 	max-height: 50px;
 }
@@ -417,7 +414,7 @@ h1
 #hebergement1
 {
 	width: 245px;
-	height: 200px;
+	height: 220px;
 	background-color: white;
 	border-radius: 20px;
 	margin-left: 40px;
@@ -435,7 +432,6 @@ h1
 {
 	position: relative;
 	top: -15px;
-	font-size: 0.8em;
 	margin-left: 10px;
 }
 
@@ -472,7 +468,7 @@ h1
 #hebergement2
 {
 	width: 245px;
-	height: 200px;
+	height: 220px;
 	background-color: white;
 	border-radius: 20px;
 	margin-left: 40px;
@@ -503,7 +499,7 @@ h1
 #hebergement3
 {
 	width: 245px;
-	height: 200px;
+	height: 220px;
 	background-color: white;
 	border-radius: 20px;
 	margin-left: 40px;
@@ -540,7 +536,7 @@ h1
 #hebergement4
 {
 	width: 245px;
-	height: 200px;
+	height: 220px;
 	background-color: white;
 	border-radius: 20px;
 	margin-left: 40px;
@@ -572,7 +568,7 @@ h1
 #hebergement5
 {
 	width: 245px;
-	height: 200px;
+	height: 220px;
 	background-color: white;
 	border-radius: 20px;
 	margin-left: 40px;
@@ -603,7 +599,7 @@ h1
 #hebergement6
 {
 	width: 245px;
-	height: 200px;
+	height: 220px;
 	background-color: white;
 	border-radius: 20px;
 	margin-left: 40px;
@@ -637,9 +633,8 @@ h1
 #plus p
 {
 	margin-left: 40px;
-	margin-top: 40px;
-	position: relative;
-	bottom: -10px;
+	margin-top: 30px;
+	
 
 }
 #plus a 
