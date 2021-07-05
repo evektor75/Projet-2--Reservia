@@ -52,7 +52,7 @@ header nav ul li:hover
 {
 	border-top: none;			
 }
-header nav ul li:hover
+.hover:hover
 {
 	color: #0065FC;
 	border-bottom: 3px solid #0065FC;
