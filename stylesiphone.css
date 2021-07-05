@@ -191,6 +191,7 @@ header nav ul li:hover
 {
 	width: 170px;
 	margin-top: 15px;
+	margin-left: 15px;
 
 }
 
@@ -408,7 +409,7 @@ header nav ul li:hover
 #activities
 {
 	position: relative;
-	bottom: -930px;
+	bottom: -1050px;
 }
  #activities h1 
 {
@@ -513,7 +514,7 @@ header nav ul li:hover
 #bloc_footer
 {
 	position: relative;
-	bottom: -930px;
+	bottom: -1050px;
 	flex-direction: column;
 	width:100% ;
 	height: 485px ;
