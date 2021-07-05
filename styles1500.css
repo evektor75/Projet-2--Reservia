@@ -52,11 +52,14 @@ header nav ul li:nth-child(2)
 
 }
 
+
 header nav ul li:hover
 {
-	border-top: none;			
+	border-top: none;	
+
 }
-header nav ul li:hover
+
+.hover:hover
 {
 	color: #0065FC;
 	border-bottom: 3px solid #0065FC;
@@ -68,9 +71,9 @@ header nav ul li:hover
 	top: 25px;
 	right: 20px;
 	margin-left: 0;
-
 }
- header img
+
+header img
 {
 	position: absolute;
 	top: 10px;
