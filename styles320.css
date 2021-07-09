@@ -31,7 +31,13 @@
 	margin-right: 20px;
 	margin-left: 150px;
 }
+#infobulle p:last-child
+{
+	font-size: 1.1em;
+	position: relative;
+	top: -5px;
 
+}
 
 /*TENDANCES*/
 
@@ -41,12 +47,11 @@
 	bottom: -180px;
 }
 
-#icon_tendances i  
+#icon_tendances
 {
-	position: relative;
-	bottom: -20px;
-
+	margin-right: 15px;
 }
+
 #hebergement7
 {
 	margin-left: 10px;

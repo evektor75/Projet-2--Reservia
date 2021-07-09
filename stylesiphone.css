@@ -9,7 +9,6 @@
 	margin-right: auto;
 }
 
-
 header nav ul li
 {
 	padding-top: 0px;
@@ -47,10 +46,14 @@ header nav ul li:nth-child(2)
 	right: 0px;
 
 }
+#logo
+{
+	margin-right:0px ;
+}
 
 header nav ul li:hover
 {
-	border-top: none;			
+	border-top: none;		
 }
 .hover:hover
 {
@@ -78,16 +81,26 @@ header nav ul li:hover
 #search h1
 {
 	margin-top: 120px;
-	text-align: center;
+	margin-bottom: 0;
+	margin-left: 15px;
+	position: relative;
+	left: 0;	
 }
 #search h2 
 {
 	margin-left: 0px;
+	margin-bottom: 35px;
 	text-align: center;
 	position: relative;
 	left: -10px;
 }
+#search > h2 
+{
+	font-size: 0.95em;
+	margin-left: 25px;
+	text-align: left;
 
+}
 
 
 /* Barre de recherche*/
@@ -105,7 +118,7 @@ header nav ul li:hover
 	width: 50px;
 }
 
-.barre input:first-child
+.barre input
 {
 	width: 280px;
 	border-top-right-radius: 20px;
@@ -122,6 +135,8 @@ header nav ul li:hover
 .bouton input
 {
 	opacity: 0;
+	display: none;
+
 }
 
 #logo_search
@@ -132,7 +147,7 @@ header nav ul li:hover
 	border: 2px solid #0065FC;
 	border-radius:20px;
 	position: relative;
-	top: -52px;
+	top: -3px;
 	left: -55px;
 }
 
@@ -216,7 +231,6 @@ header nav ul li:hover
 }
 
 
-
 #infobulle
 {
 	position: relative;
@@ -236,7 +250,12 @@ header nav ul li:hover
 	width: 25px;
 	height: 25px;
 }
-
+#infobulle p:last-child
+{
+	font-size: 1em;
+	position: relative;
+	bottom: -5px;
+}
 
 /*Hebergements*/ 
 
@@ -265,15 +284,7 @@ header nav ul li:hover
 	width: 350px;
 	margin-bottom: 30px;
 }
-#icon_tendances i  
-{
-	visibility: visible;
-}
-#icon_tendances i  
-{
-	position: relative;
-	bottom: -18px;
-}
+
 
 #hebergement7
 {
