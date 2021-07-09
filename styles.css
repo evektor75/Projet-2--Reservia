@@ -1,7 +1,7 @@
 /*GENERAL*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-			
+
 
 #blocpage
 {
@@ -142,6 +142,12 @@ header nav ul li:hover
  	width: 235px;
  	height: 50px;
  	border:  2px solid #F2F2F2;
+ 	font-weight: bold; 
+ 	font-size: 1em; 
+ 	padding-left: 15px;
+ 	font-family: 'Raleway';
+ 	margin-top: auto;
+ 	margin-bottom: auto; 
  }
 
 .bouton input
@@ -665,23 +671,25 @@ h1
 #titre_tendances
 {
 	display: flex;
+	justify-content: space-between;
 
 }
 
 #titre_tendances h1
 {
 	margin-left: 40px;
-	margin-right: 115px;
 	margin-top: 40px;
+}
+#icon_tendances
+{
+	margin-top: 44px;
+	margin-right: 25px;
+	
 }
 #icon_tendances i  
 {
 	font-size: 1.4em;
-	margin-top: 25px;
-	position: relative;
-	left: -20px;
-	bottom: -15px;
-
+	
 }
 
 
