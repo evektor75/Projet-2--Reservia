@@ -1,4 +1,4 @@
-@media all and (min-width: 720px) and (max-width:1360px)
+@media all and (min-width: 775px) and (max-width:1360px)
 
 
 {
@@ -56,7 +56,11 @@ header nav ul li:hover
 	border-top: none;	
 
 }
-
+#header nav 
+{
+	width: 0;
+	height: 0;
+}
 .hover:hover
 {
 	color: #0065FC;
@@ -82,7 +86,7 @@ header img
 
 #search h1
 {
-	margin-top: 120px;
+	margin-top: 150px;
 	text-align: center;
 }
 #search h2 
@@ -297,13 +301,24 @@ header img
 	margin-left: 20px;
 }
 
+#hebergementsHaut
+{
+	width: 100%;
+	min-width: 750px;
+	justify-content: space-around;
+}
+#hebergementsBas
+{
+	width: 100%;
+	min-width: 750px;
+	justify-content: space-around;
+}
 #hebergement1
 {
 	margin-bottom: 10px;
 	border:  2px solid #F2F2F2;
 	width: 89%;
-	min-width: 219px;
-	margin-left: 20px;
+	min-width: 210px;
 }
 
 #hebergement1 img 
@@ -317,7 +332,7 @@ header img
 	margin-bottom: 10px;
 	border:  2px solid #F2F2F2;
 	width: 89%;
-	min-width: 219px;
+	min-width: 209px;
 }
 #hebergement2 img 
 {
@@ -329,7 +344,7 @@ header img
 	margin-bottom: 10px;
 	border:  2px solid #F2F2F2;
 	width: 89%;
-	min-width: 219px;
+	min-width: 209px;
 }
 
 
@@ -345,8 +360,8 @@ header img
 	border:  2px solid #F2F2F2;
 	width: 89%;
 	margin-top: 0;
-	min-width: 219px;
-	margin-left: 20px;
+	min-width: 209px;
+
 }
 #hebergement4 img 
 {
@@ -359,7 +374,8 @@ header img
 	border:  2px solid #F2F2F2;
 	width: 89%;
 	margin-top: 0;
-	min-width: 219px;
+	min-width: 209px;
+
 }
 #hebergement5 img 
 {
@@ -372,7 +388,7 @@ header img
 	border:  2px solid #F2F2F2;
 	width: 89%;
 	margin-top: 0;
-	min-width: 219px;
+	min-width: 209px;
 }
 #hebergement6 img 
 {
