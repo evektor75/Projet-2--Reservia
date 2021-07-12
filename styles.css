@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
-
 #blocpage
 {
 	max-width: 1340px;
@@ -98,6 +97,7 @@ header nav ul li:hover
 	margin-top: 50px;
 	position: relative;
 	left: -40px;
+	margin-left: 40px;
 
 	
 }
@@ -107,6 +107,7 @@ header nav ul li:hover
 	font-size: 1em;
 	color: #303030;
 	margin-bottom: 25px;
+	margin-left: 5px;
 
 	
 }
@@ -150,6 +151,12 @@ header nav ul li:hover
  	margin-bottom: auto; 
  }
 
+#boutons
+ {
+ 	display: flex;
+ 	flex-direction: column;
+ }
+
 .bouton input
 {
 	width: 135px;
@@ -164,7 +171,7 @@ header nav ul li:hover
 
 }
 
-.bouton i
+#logo_search i
 {
 	opacity: 0;
 }
@@ -384,7 +391,11 @@ header nav ul li:hover
 {
 	display: flex;
 }
-
+#filtreDeRecherche h2
+{
+	margin-left: -10px;
+	margin-bottom: 0px;
+}
 
 
 /*SECTION ACCOMODATIONS*/
@@ -415,12 +426,12 @@ header nav ul li:hover
 	height: 625px;
 }
 
-h1
+h2
 {
 	margin-left: 40px;
 }
 
-#bloc1 h1
+#bloc1 h2
 {
 	margin-top: 40px;
 }
@@ -675,7 +686,7 @@ h1
 
 }
 
-#titre_tendances h1
+#titre_tendances h2
 {
 	margin-left: 40px;
 	margin-top: 40px;
@@ -795,7 +806,7 @@ h1
 	display:  flex;
 
 }
-#activities h1
+#activities h2
 {
 	position: relative;
 	left: -40px;
